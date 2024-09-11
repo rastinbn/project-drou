@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+html{
+    font-size: 10px;
+}
+.main-nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.nav-image-box{
+max-width: 10rem;
+display: flex;
+align-items: start;
+height: 8rem;
+}
+.nav-image-box>img{
+    width: 100%;
+    flex: 1;
+    height: 100%;
+    align-self: flex-start;
+}
+.nav-text-box{
+display: flex;
+flex-direction: row;
+margin-top: 2rem;
+gap: 4rem;
+font-size: 1.3rem;
+font-weight: bold;
+}
+.nav-icon-box{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: 2rem;
+    align-items: start;
+    padding-right: 1rem;
+}
+.fa{
+
+}
+.fa-search{
+
+}
+.fa-heart-o{
+
+}
+.fa-shopping-bag{
+    color: transparent;
+
+}

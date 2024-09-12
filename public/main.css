@@ -3,18 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
-:root{
-
-    --color1: #e42b04;
-
-}
-
-
-body,html{
+body{
     font-family: sans-serif;
-    overflow-x: hidden;
 }
 html{
     font-size: 10px;

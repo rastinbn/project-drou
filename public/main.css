@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: sans-serif;
@@ -54,5 +55,60 @@ font-weight: bold;
 }
 .fa-shopping-bag{
     color: transparent;
+
+}
+
+/* end header */
+
+
+/* start section baner 1 */
+.appel-watch-parent{
+display: flex;
+flex-direction: row;
+background-color: rgb(206, 206, 206,0.2);
+height: 40rem;
+align-items: center;
+gap: 35rem;
+padding-left: 10rem;
+
+}
+.appel-watch-text-box{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+overflow: hidden;
+}
+.appel-watch-text-box>p{
+   width: 50rem;
+}
+.appel-watch-text-box>h2{
+    color: brown;
+}
+.appel-watch-text-box>h1{
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+}
+.appel-watch-text-box>a{
+    background-color: orangered;
+    border-radius: 16px;
+    width: auto;
+    text-align: center;
+}
+.apple-watch-image-box{
+width: 30rem;
+}
+.apple-watch-image-box >img{
+    width: 100%;
+}
+.slider-box{
+
+}
+.slider-button{
+
+}
+.slider-button-active{
+
+}
+.slider-button-disable{
 
 }
